@@ -1,0 +1,5 @@
+openvas-python==1.2.3
+sslscan==1.11.11
+azure-functions==1.2.1
+requests==2.25.1
+python-dotenv==0.15.0

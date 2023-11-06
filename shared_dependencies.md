@@ -1,19 +1,17 @@
-Shared Dependencies:
+Given the diverse nature of the agents and their respective tech stacks, there are few shared dependencies across all files. However, some commonalities can be identified:
 
-1. **Database Connection**: All the files will share a common database connection. This will be defined in the `database.py` file of each agent. The connection details like database name, username, password, host, and port will be shared across all the files.
+1. **Dockerfile:** Each agent has a Dockerfile for creating a Docker image. This file will contain instructions for building the Docker image, such as the base image, working directory, copying files, installing dependencies, and the command to run the application.
 
-2. **API Endpoints**: The `api.py` file in each agent will define the API endpoints that the frontend will use to interact with the backend. These endpoints will be shared across all the files.
+2. **Main Application Files:** Each agent has a main application file (`main.py` or `main.js`). This file will contain the primary logic for the agent, including defining routes/endpoints, handling requests, and calling utility functions.
 
-3. **Main Function**: The `main.py` file in each agent will contain the main function that will be the entry point of the application. This function will be shared across all the files.
+3. **Utility Files:** Each agent has a utility file (`utils.py` or `utils.js`). This file will contain helper functions that are used by the main application file. The functions in these files may include data processing, error handling, and interacting with APIs or libraries.
 
-4. **Data Schemas**: The data schemas for the database will be shared across all the files. These will define the structure of the data that will be stored in the database.
+4. **Dependency Files:** Each agent has a file for managing dependencies (`requirements.txt` or `package.json`). These files will list the libraries or packages that the agent requires to function.
 
-5. **DOM Element IDs**: The frontend will use specific DOM element IDs to interact with the HTML elements. These IDs will be shared across all the files.
+5. **Deployment Platforms:** The agents are deployed on various platforms such as AWS, Google Cloud, Azure, Heroku, and Vercel. These platforms will require specific configurations, which may be defined in the Dockerfile or other configuration files.
 
-6. **Message Names**: The message names used for logging and error handling will be shared across all the files.
+6. **Languages:** Python and Node.js are the primary programming languages used across the agents. Shared elements may include standard language constructs, such as function definitions, variable declarations, and import statements.
 
-7. **Function Names**: The function names used in the `main.py`, `database.py`, and `api.py` files will be shared across all the files. These function names will be used to call the specific functions in the code.
+7. **Libraries and APIs:** Several libraries and APIs are used across multiple agents, such as Pandas, TensorFlow, PyTorch, OpenCV, NLTK, spaCy, Hugging Face Transformers, Google Cloud APIs, and more. These will be imported and used in similar ways across the agents.
 
-8. **API Keys**: The API keys used to interact with the external APIs (like finance/investment APIs, calendar APIs, real estate APIs, etc.) will be shared across all the files.
-
-9. **Python Libraries**: The Python libraries used in the code (like SQL libraries, NLP libraries, etc.) will be shared across all the files.
+Please note that the specific names of exported variables, data schemas, DOM element IDs, message names, and function names will depend on the individual implementation of each agent and are not shared across all files.
