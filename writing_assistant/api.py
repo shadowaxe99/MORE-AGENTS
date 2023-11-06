@@ -1,4 +1,3 @@
-```python
 from flask import Flask, request, jsonify
 from main import WritingAssistant
 
