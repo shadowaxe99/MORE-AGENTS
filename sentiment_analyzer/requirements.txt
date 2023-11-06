@@ -1,4 +1,4 @@
-nltk==3.5
+nltk==3.6.6
 spacy==3.0.6
 transformers==4.5.1
 azure-functions==1.7.0
