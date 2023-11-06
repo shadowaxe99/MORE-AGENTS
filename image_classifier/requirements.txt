@@ -1,6 +1,6 @@
 tensorflow==2.4.1
 opencv-python==4.5.1.48
 numpy==1.19.5
-Pillow==8.1.0
+Pillow==10.0.1
 boto3==1.17.7
 google-cloud-storage==1.36.0
