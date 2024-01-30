@@ -23,7 +23,7 @@ tzlocal==2.1
 sanic==21.3.2
 sanic-cors==0.10.0.post3
 sanic-jwt==1.6.0
-aiohttp==3.9.0
+aiohttp==3.9.2
 aiofiles==0.6.0
 jinja2==2.11.3
 pykwalify==1.8.0
@@ -47,7 +47,7 @@ webexteamssdk==1.6
 sanic==21.3.2
 sanic-cors==0.10.0.post3
 sanic-jwt==1.6.0
-aiohttp==3.9.0
+aiohttp==3.9.2
 aiofiles==0.6.0
 jinja2==2.11.3
 pykwalify==1.8.0
@@ -71,7 +71,7 @@ webexteamssdk==1.6
 sanic==21.3.2
 sanic-cors==0.10.0.post3
 sanic-jwt==1.6.0
-aiohttp==3.9.0
+aiohttp==3.9.2
 aiofiles==0.6.0
 jinja2==2.11.3
 pykwalify==1.8.0
