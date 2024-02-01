@@ -2,7 +2,7 @@ rasa==2.8.1
 spacy==3.0.6
 tensorflow==2.4.1
 numpy==1.19.5
-scikit-learn==0.24.2
+scikit-learn==1.0.1
 requests==2.25.1
 python-socketio[client]==5.0.4
 python-engineio[client]==4.0.3
